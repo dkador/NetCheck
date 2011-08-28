@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0142C928140AD7A50026CDFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0142C927140AD7A50026CDFC /* Foundation.framework */; };
+		0142C92E140AD7A50026CDFC /* NetCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 0142C92D140AD7A50026CDFC /* NetCheck.m */; };
+		0142C936140AD7A50026CDFC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0142C935140AD7A50026CDFC /* SenTestingKit.framework */; };
+		0142C938140AD7A50026CDFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0142C937140AD7A50026CDFC /* UIKit.framework */; };
+		0142C939140AD7A50026CDFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0142C927140AD7A50026CDFC /* Foundation.framework */; };
+		0142C93B140AD7A50026CDFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0142C93A140AD7A50026CDFC /* CoreGraphics.framework */; };
+		0142C93E140AD7A50026CDFC /* libNetCheck.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0142C924140AD7A50026CDFC /* libNetCheck.a */; };
+		0142C944140AD7A50026CDFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0142C942140AD7A50026CDFC /* InfoPlist.strings */; };
+		0142C946140AD7A50026CDFC /* NetCheckTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0142C945140AD7A50026CDFC /* NetCheckTests.h */; };
+		0142C948140AD7A50026CDFC /* NetCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0142C947140AD7A50026CDFC /* NetCheckTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0142C93C140AD7A50026CDFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0142C91B140AD7A50026CDFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0142C923140AD7A50026CDFC;
+			remoteInfo = NetCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0142C924140AD7A50026CDFC /* libNetCheck.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetCheck.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0142C927140AD7A50026CDFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0142C92B140AD7A50026CDFC /* NetCheck-Prefix.pch */ = {isa = PBXFileReference; path = "NetCheck-Prefix.pch"; sourceTree = "<group>"; };
+		0142C92C140AD7A50026CDFC /* NetCheck.h */ = {isa = PBXFileReference; path = NetCheck.h; sourceTree = "<group>"; };
+		0142C92D140AD7A50026CDFC /* NetCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetCheck.m; sourceTree = "<group>"; };
+		0142C934140AD7A50026CDFC /* NetCheckTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetCheckTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0142C935140AD7A50026CDFC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0142C937140AD7A50026CDFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0142C93A140AD7A50026CDFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		0142C941140AD7A50026CDFC /* NetCheckTests-Info.plist */ = {isa = PBXFileReference; path = "NetCheckTests-Info.plist"; sourceTree = "<group>"; };
+		0142C943140AD7A50026CDFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0142C945140AD7A50026CDFC /* NetCheckTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetCheckTests.h; sourceTree = "<group>"; };
+		0142C947140AD7A50026CDFC /* NetCheckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetCheckTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0142C921140AD7A50026CDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0142C928140AD7A50026CDFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0142C930140AD7A50026CDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0142C936140AD7A50026CDFC /* SenTestingKit.framework in Frameworks */,
+				0142C938140AD7A50026CDFC /* UIKit.framework in Frameworks */,
+				0142C939140AD7A50026CDFC /* Foundation.framework in Frameworks */,
+				0142C93B140AD7A50026CDFC /* CoreGraphics.framework in Frameworks */,
+				0142C93E140AD7A50026CDFC /* libNetCheck.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0142C919140AD7A50026CDFC = {
+			isa = PBXGroup;
+			children = (
+				0142C929140AD7A50026CDFC /* NetCheck */,
+				0142C93F140AD7A50026CDFC /* NetCheckTests */,
+				0142C926140AD7A50026CDFC /* Frameworks */,
+				0142C925140AD7A50026CDFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0142C925140AD7A50026CDFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0142C924140AD7A50026CDFC /* libNetCheck.a */,
+				0142C934140AD7A50026CDFC /* NetCheckTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0142C926140AD7A50026CDFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0142C927140AD7A50026CDFC /* Foundation.framework */,
+				0142C935140AD7A50026CDFC /* SenTestingKit.framework */,
+				0142C937140AD7A50026CDFC /* UIKit.framework */,
+				0142C93A140AD7A50026CDFC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0142C929140AD7A50026CDFC /* NetCheck */ = {
+			isa = PBXGroup;
+			children = (
+				0142C92C140AD7A50026CDFC /* NetCheck.h */,
+				0142C92D140AD7A50026CDFC /* NetCheck.m */,
+				0142C92A140AD7A50026CDFC /* Supporting Files */,
+			);
+			path = NetCheck;
+			sourceTree = "<group>";
+		};
+		0142C92A140AD7A50026CDFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0142C92B140AD7A50026CDFC /* NetCheck-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0142C93F140AD7A50026CDFC /* NetCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				0142C945140AD7A50026CDFC /* NetCheckTests.h */,
+				0142C947140AD7A50026CDFC /* NetCheckTests.m */,
+				0142C940140AD7A50026CDFC /* Supporting Files */,
+			);
+			path = NetCheckTests;
+			sourceTree = "<group>";
+		};
+		0142C940140AD7A50026CDFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0142C941140AD7A50026CDFC /* NetCheckTests-Info.plist */,
+				0142C942140AD7A50026CDFC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0142C922140AD7A50026CDFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0142C923140AD7A50026CDFC /* NetCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0142C94B140AD7A50026CDFC /* Build configuration list for PBXNativeTarget "NetCheck" */;
+			buildPhases = (
+				0142C920140AD7A50026CDFC /* Sources */,
+				0142C921140AD7A50026CDFC /* Frameworks */,
+				0142C922140AD7A50026CDFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetCheck;
+			productName = NetCheck;
+			productReference = 0142C924140AD7A50026CDFC /* libNetCheck.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0142C933140AD7A50026CDFC /* NetCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0142C94E140AD7A50026CDFC /* Build configuration list for PBXNativeTarget "NetCheckTests" */;
+			buildPhases = (
+				0142C92F140AD7A50026CDFC /* Sources */,
+				0142C930140AD7A50026CDFC /* Frameworks */,
+				0142C931140AD7A50026CDFC /* Resources */,
+				0142C932140AD7A50026CDFC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0142C93D140AD7A50026CDFC /* PBXTargetDependency */,
+			);
+			name = NetCheckTests;
+			productName = NetCheckTests;
+			productReference = 0142C934140AD7A50026CDFC /* NetCheckTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0142C91B140AD7A50026CDFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Dorkfort.com;
+			};
+			buildConfigurationList = 0142C91E140AD7A50026CDFC /* Build configuration list for PBXProject "NetCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0142C919140AD7A50026CDFC;
+			productRefGroup = 0142C925140AD7A50026CDFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0142C923140AD7A50026CDFC /* NetCheck */,
+				0142C933140AD7A50026CDFC /* NetCheckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0142C931140AD7A50026CDFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0142C944140AD7A50026CDFC /* InfoPlist.strings in Resources */,
+				0142C946140AD7A50026CDFC /* NetCheckTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0142C932140AD7A50026CDFC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0142C920140AD7A50026CDFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0142C92E140AD7A50026CDFC /* NetCheck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0142C92F140AD7A50026CDFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0142C948140AD7A50026CDFC /* NetCheckTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0142C93D140AD7A50026CDFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0142C923140AD7A50026CDFC /* NetCheck */;
+			targetProxy = 0142C93C140AD7A50026CDFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0142C942140AD7A50026CDFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0142C943140AD7A50026CDFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0142C949140AD7A50026CDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0142C94A140AD7A50026CDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0142C94C140AD7A50026CDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NetCheck.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetCheck/NetCheck-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0142C94D140AD7A50026CDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NetCheck.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetCheck/NetCheck-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0142C94F140AD7A50026CDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetCheck/NetCheck-Prefix.pch";
+				INFOPLIST_FILE = "NetCheckTests/NetCheckTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0142C950140AD7A50026CDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetCheck/NetCheck-Prefix.pch";
+				INFOPLIST_FILE = "NetCheckTests/NetCheckTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0142C91E140AD7A50026CDFC /* Build configuration list for PBXProject "NetCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0142C949140AD7A50026CDFC /* Debug */,
+				0142C94A140AD7A50026CDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0142C94B140AD7A50026CDFC /* Build configuration list for PBXNativeTarget "NetCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0142C94C140AD7A50026CDFC /* Debug */,
+				0142C94D140AD7A50026CDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0142C94E140AD7A50026CDFC /* Build configuration list for PBXNativeTarget "NetCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0142C94F140AD7A50026CDFC /* Debug */,
+				0142C950140AD7A50026CDFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0142C91B140AD7A50026CDFC /* Project object */;
+}
