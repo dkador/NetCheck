@@ -17,6 +17,9 @@
 		0142C944140AD7A50026CDFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0142C942140AD7A50026CDFC /* InfoPlist.strings */; };
 		0142C946140AD7A50026CDFC /* NetCheckTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0142C945140AD7A50026CDFC /* NetCheckTests.h */; };
 		0142C948140AD7A50026CDFC /* NetCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0142C947140AD7A50026CDFC /* NetCheckTests.m */; };
+		0142C952140AD7D20026CDFC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0142C951140AD7D20026CDFC /* CFNetwork.framework */; };
+		0142C956140AD8270026CDFC /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0142C954140AD8270026CDFC /* Reachability.h */; };
+		0142C957140AD8270026CDFC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0142C955140AD8270026CDFC /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,17 +35,20 @@
 /* Begin PBXFileReference section */
 		0142C924140AD7A50026CDFC /* libNetCheck.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetCheck.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0142C927140AD7A50026CDFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0142C92B140AD7A50026CDFC /* NetCheck-Prefix.pch */ = {isa = PBXFileReference; path = "NetCheck-Prefix.pch"; sourceTree = "<group>"; };
-		0142C92C140AD7A50026CDFC /* NetCheck.h */ = {isa = PBXFileReference; path = NetCheck.h; sourceTree = "<group>"; };
+		0142C92B140AD7A50026CDFC /* NetCheck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetCheck-Prefix.pch"; sourceTree = "<group>"; };
+		0142C92C140AD7A50026CDFC /* NetCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetCheck.h; sourceTree = "<group>"; };
 		0142C92D140AD7A50026CDFC /* NetCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetCheck.m; sourceTree = "<group>"; };
 		0142C934140AD7A50026CDFC /* NetCheckTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetCheckTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0142C935140AD7A50026CDFC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		0142C937140AD7A50026CDFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		0142C93A140AD7A50026CDFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		0142C941140AD7A50026CDFC /* NetCheckTests-Info.plist */ = {isa = PBXFileReference; path = "NetCheckTests-Info.plist"; sourceTree = "<group>"; };
+		0142C941140AD7A50026CDFC /* NetCheckTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetCheckTests-Info.plist"; sourceTree = "<group>"; };
 		0142C943140AD7A50026CDFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0142C945140AD7A50026CDFC /* NetCheckTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetCheckTests.h; sourceTree = "<group>"; };
 		0142C947140AD7A50026CDFC /* NetCheckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetCheckTests.m; sourceTree = "<group>"; };
+		0142C951140AD7D20026CDFC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0142C954140AD8270026CDFC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "../AskMe/ext/asi-http-request/External/Reachability/Reachability.h"; sourceTree = "<group>"; };
+		0142C955140AD8270026CDFC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "../AskMe/ext/asi-http-request/External/Reachability/Reachability.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0142C952140AD7D20026CDFC /* CFNetwork.framework in Frameworks */,
 				0142C928140AD7A50026CDFC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +79,7 @@
 		0142C919140AD7A50026CDFC = {
 			isa = PBXGroup;
 			children = (
+				0142C951140AD7D20026CDFC /* CFNetwork.framework */,
 				0142C929140AD7A50026CDFC /* NetCheck */,
 				0142C93F140AD7A50026CDFC /* NetCheckTests */,
 				0142C926140AD7A50026CDFC /* Frameworks */,
@@ -112,6 +120,7 @@
 		0142C92A140AD7A50026CDFC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0142C953140AD8020026CDFC /* Reachability */,
 				0142C92B140AD7A50026CDFC /* NetCheck-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -136,6 +145,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0142C953140AD8020026CDFC /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				0142C954140AD8270026CDFC /* Reachability.h */,
+				0142C955140AD8270026CDFC /* Reachability.m */,
+			);
+			name = Reachability;
+			path = ..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -143,6 +162,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0142C956140AD8270026CDFC /* Reachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0142C92E140AD7A50026CDFC /* NetCheck.m in Sources */,
+				0142C957140AD8270026CDFC /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

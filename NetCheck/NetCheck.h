@@ -8,6 +8,29 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NetCheck : NSObject
+
+@class Reachability;
+
+@protocol NetCheckDelegate;
+
+@interface NetCheck : NSObject {
+    Reachability *internetReachable;
+    Reachability *hostReachable;
+    
+    id<NetCheckDelegate> delegate;
+}
+
+@property (nonatomic, retain) Reachability *internetReachable;
+@property (nonatomic, retain) Reachability *hostReachable;
+
+@property (nonatomic, retain) id<NetCheckDelegate> delegate;
+
+- (void) checkReachabilityForHost: (NSString *) host;
+
+@end
+
+@protocol NetCheckDelegate
+
+- (void) reachabilityFinishedWithInternetReachable: (Boolean) internetReachable HostReachable: (Boolean) hostReachable;
 
 @end
